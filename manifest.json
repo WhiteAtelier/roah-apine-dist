@@ -1,0 +1,13 @@
+{
+    "app": {
+        "eleparts-stock-manager": {
+            "url": "https://github.com/ShiraoShotaro/eleparts-stock-manager",
+            "description": "電子部品の在庫管理アプリ"
+        }
+    },
+    "provider": {
+        "apine-provider-cef": {
+            "variants": ["default"]
+        }
+    }
+}
