@@ -1,13 +1,83 @@
 {
+    "schema_version": 1,
     "app": {
         "eleparts-stock-manager": {
-            "url": "https://github.com/ShiraoShotaro/eleparts-stock-manager",
-            "description": "電子部品の在庫管理アプリ"
+            "repository": "https://github.com/ShiraoShotaro/eleparts-stock-manager",
+            "description": "電子部品の在庫管理アプリ",
+            "assets": {
+                "windows-x86_64": "eleparts-stock-manager.windows-x86_64.binpack"
+            }
+        },
+        "canvas2d_sample_app": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "Canvas 2D のサンプルアプリ",
+            "assets": {
+                "windows-x86_64": "canvas2d_sample_app.windows-x86_64.binpack"
+            }
+        },
+        "mp4player_app": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "MP4 プレイヤーのサンプルアプリ",
+            "assets": {
+                "windows-x86_64": "mp4player_app.windows-x86_64.binpack"
+            }
+        },
+        "sandbox_app": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "サンドボックスのサンプルアプリ",
+            "assets": {
+                "windows-x86_64": "sandbox_app.windows-x86_64.binpack"
+            }
         }
     },
     "provider": {
         "apine-provider-cef": {
-            "variants": ["default"]
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "Chromium Embedded Framework による Web コンテンツ描画",
+            "variants": {
+                "default": {
+                    "label": "default",
+                    "assets": {
+                        "windows-x86_64": "apine-provider-cef.default.windows-x86_64.binpack"
+                    }
+                }
+            }
+        },
+        "apine-provider-canvas2d": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "Canvas 2D によるレイヤー描画",
+            "variants": {
+                "default": {
+                    "label": "default",
+                    "assets": {
+                        "windows-x86_64": "apine-provider-canvas2d.default.windows-x86_64.binpack"
+                    }
+                }
+            }
+        },
+        "apine-provider-mp4player": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "MP4 プレイヤーによるレイヤー描画",
+            "variants": {
+                "default": {
+                    "label": "default",
+                    "assets": {
+                        "windows-x86_64": "apine-provider-mp4player.default.windows-x86_64.binpack"
+                    }
+                }
+            }
+        },
+        "apine-provider-usd": {
+            "repository": "https://github.com/WhiteAtelier/roah-apine",
+            "description": "USD によるレイヤー描画",
+            "variants": {
+                "default": {
+                    "label": "default",
+                    "assets": {
+                        "windows-x86_64": "apine-provider-usd.default.windows-x86_64.binpack"
+                    }
+                }
+            }
         }
     }
 }
