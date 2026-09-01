@@ -4,6 +4,8 @@
         "eleparts-stock-manager": {
             "repository": "https://github.com/ShiraoShotaro/eleparts-stock-manager",
             "description": "電子部品の在庫管理アプリ",
+            "icon": "eleparts-stock-manager.png",
+            "providers": ["apine-provider-cef"],
             "assets": {
                 "windows-x86_64": "eleparts-stock-manager.windows-x86_64.binpack"
             }
@@ -11,6 +13,8 @@
         "canvas2d_sample_app": {
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "Canvas 2D のサンプルアプリ",
+            "icon": "canvas2d_sample_app.png",
+            "providers": ["apine-provider-canvas2d"],
             "assets": {
                 "windows-x86_64": "canvas2d_sample_app.windows-x86_64.binpack"
             }
@@ -18,6 +22,8 @@
         "mp4player_app": {
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "MP4 プレイヤーのサンプルアプリ",
+            "icon": "mp4player_app.png",
+            "providers": ["apine-provider-mp4player"],
             "assets": {
                 "windows-x86_64": "mp4player_app.windows-x86_64.binpack"
             }
@@ -25,6 +31,7 @@
         "sandbox_app": {
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "サンドボックスのサンプルアプリ",
+            "providers": ["apine-provider-canvas2d", "apine-provider-cef"],
             "assets": {
                 "windows-x86_64": "sandbox_app.windows-x86_64.binpack"
             }
