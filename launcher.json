@@ -1,0 +1,10 @@
+{
+    "schema_version": 1,
+    "launcher": {
+        "version": "0.1.0",
+        "providers": ["apine-provider-cef"],
+        "assets": {
+            "windows-x86_64": "apine-launcher-app.windows-x86_64.binpack"
+        }
+    }
+}
