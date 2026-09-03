@@ -1,49 +1,8 @@
 {
     "schema_version": 1,
-    "app": {
-        "eleparts-stock-manager": {
-            "version": "1",
-            "repository": "https://github.com/ShiraoShotaro/eleparts-stock-manager",
-            "description": "電子部品の在庫管理アプリ",
-            "icon": "eleparts-stock-manager.png",
-            "providers": ["apine-provider-cef"],
-            "assets": {
-                "windows-x86_64": "eleparts-stock-manager.windows-x86_64.binpack"
-            }
-        },
-        "canvas2d_sample_app": {
-            "version": "2",
-            "repository": "https://github.com/WhiteAtelier/roah-apine",
-            "description": "Canvas 2D のサンプルアプリ",
-            "icon": "canvas2d_sample_app.png",
-            "providers": ["apine-provider-canvas2d"],
-            "assets": {
-                "windows-x86_64": "canvas2d_sample_app.windows-x86_64.binpack"
-            }
-        },
-        "mp4player_app": {
-            "version": "1",
-            "repository": "https://github.com/WhiteAtelier/roah-apine",
-            "description": "MP4 プレイヤーのサンプルアプリ",
-            "icon": "mp4player_app.png",
-            "providers": ["apine-provider-mp4player"],
-            "assets": {
-                "windows-x86_64": "mp4player_app.windows-x86_64.binpack"
-            }
-        },
-        "sandbox_app": {
-            "version": "1",
-            "repository": "https://github.com/WhiteAtelier/roah-apine",
-            "description": "サンドボックスのサンプルアプリ",
-            "providers": ["apine-provider-canvas2d", "apine-provider-cef"],
-            "assets": {
-                "windows-x86_64": "sandbox_app.windows-x86_64.binpack"
-            }
-        }
-    },
     "provider": {
         "apine-provider-cef": {
-            "version": "1",
+            "version": "2",
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "Chromium Embedded Framework による Web コンテンツ描画",
             "variants": {
@@ -56,7 +15,7 @@
             }
         },
         "apine-provider-canvas2d": {
-            "version": "1",
+            "version": "2",
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "Canvas 2D によるレイヤー描画",
             "variants": {
@@ -69,7 +28,7 @@
             }
         },
         "apine-provider-mp4player": {
-            "version": "1",
+            "version": "2",
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "MP4 プレイヤーによるレイヤー描画",
             "variants": {
@@ -82,7 +41,7 @@
             }
         },
         "apine-provider-usd": {
-            "version": "1",
+            "version": "2",
             "repository": "https://github.com/WhiteAtelier/roah-apine",
             "description": "USD によるレイヤー描画",
             "variants": {
